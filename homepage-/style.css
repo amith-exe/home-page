@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  /* background-color: #324090; */
+
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.icon {
+  margin-left: 5rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+}
+.icon span {
+  width: 100%;
+  background-color: aliceblue;
+  display: block;
+  height: 4px;
+}
+.span-h1 {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+/* logo */
+.logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+}
+.logo-con img {
+  width: 60x;
+  height: 60px;
+  display: block;
+}
+.h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.span-h1 {
+  display: block;
+}
+.head {
+  color: aliceblue;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.sub-head {
+  color: aliceblue;
+  font-size: small;
+  text-align: center;
+  font-weight: bold;
+}
+/* search */
+.search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+.search-icon {
+  color: white;
+  font-weight: bolder;
+}
+#navbar.scrolled {
+  background-color: rgb(41, 52, 82);
+}
+.serach h1 {
+  display: inline-block;
+  padding: 10px;
+}
+#serach {
+  padding: 17px 17px;
+  border-radius: 5px;
+  border: none;
+}
+/* main header */
+.main-header {
+  background-image: url(img/photo-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.main-h1 span {
+  display: inline-block;
+  font-size: 2rem;
+  pointer-events: none;
+}
+.header-btn {
+  display: flex;
+  gap: 25px;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 20rem;
+}
+.btns {
+  padding: 20px 30px;
+  background-color: rgb(199, 42, 42);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btns:hover {
+  background-color: rgb(119, 45, 45);
+  text-decoration: none;
+  color: aliceblue;
+}
+/* main-style */
+.heading_featured {
+  margin-left: 6rem;
+  padding: 30px;
+  margin-top: 25px;
+}
+.featured-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 15px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-bottom: 15px;
+}
+.new-title-class {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.new-subhead-class {
+  display: flex;
+  gap: 10px;
+}
+.new-subhead-class span {
+  display: inline-block;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* footer-design */
+.my-footer {
+  /* background-color:  rgb(41, 52, 82); */
+
+  width: 100%;
+}
+.footer-heading {
+  /* color: aliceblue; */
+}
+.text-muted:hover {
+  text-decoration-color: aliceblue;
+}
+.subject {
+  background-color: whitesmoke;
+}
+.sub-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding: 30px;
+  margin-top: 25px;
+}
+.subject-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub-list {
+  list-style: none;
+}
+.sub-list li {
+  margin-bottom: 15px;
+}
+.list {
+  color: brown;
+  text-decoration: none;
+}
+.list:hover {
+  text-decoration: solid;
+}
+.email {
+  background-color: rgb(106, 12, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  margin-top: 3.5rem;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10x;
+}
+.email-head {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.email-box {
+  padding: 20px 30px;
+  border-radius: 5px;
+}
